@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ 
+}
+header{
+  color:white;
+  margin-bottom:3rem;
+}
+main{
+ background-color:teal;
+ color:white;
+
+
+}
+button{
+  margin-top:2rem;
+  width: 10rem;
+  height: 2rem;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#single{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#single a{
+  color:black;
+}
+footer{
+  margin-top:2rem;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(jungle.jpg);
+  background-size: cover;
+  color:white;
+  height: 3rem;
+}

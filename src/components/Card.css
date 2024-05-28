@@ -1,0 +1,21 @@
+
+.Card{
+    background: lightgray;
+    padding: 20px;
+    margin: 1rem;
+    color:black;
+    border-radius: 10px;
+    border: solid black 5px;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 30rem;
+    
+}
+#x{
+    
+    float: right;
+ 
+}
+#like{
+    margin: 2rem;
+}
