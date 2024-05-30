@@ -3,21 +3,51 @@
     padding:0;
     box-sizing: border-box;
 }
-.item{
-    height: 21rem;
-    width: 45rem;
-    position: relative;
-}
-.home{
+.landing_page{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    grid-template-rows: 500px 500px;
     text-align: center;
     color: white;
+   
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.item1 {
+    background-image: url("naali.jpg");
+    background-size: cover;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    background-position: center center;
+    text-decoration: none;
+   
+}
+.item2 {
+    background-image: url("bird.jpg");
+    background-size: cover;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1 ;
+    background-position: center center;
+    text-decoration: none;
+}
+.item3 {
+    background-image: url("insect.jpg");
+    background-size: cover;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1 ;
+    background-position: center center;
+    text-decoration: none;
+}
+.item4 {
+    background-image: url("fish.jpg");
+    background-size: cover;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1 ;
+    background-position: center center;
+    text-decoration: none;
+}
+.landing_page p{
+    margin-top: 15rem;
+    text-align: center;
+    color:white;
+    font-size: 5rem;
+  
+}

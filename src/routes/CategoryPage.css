@@ -1,7 +1,21 @@
 .container{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat (4,1fr);
 }
-.poop{
-    float: right;
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.search input{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.category_name{
+    font-size: 5rem;
+    text-transform: uppercase;
 }

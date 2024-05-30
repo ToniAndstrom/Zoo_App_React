@@ -34,20 +34,9 @@ button{
 #single a{
   color:black;
 }
-footer{
-  margin-top:2rem;
-}
+
 .container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   
-}
-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(jungle.jpg);
-  background-size: cover;
-  color:white;
-  height: 3rem;
 }

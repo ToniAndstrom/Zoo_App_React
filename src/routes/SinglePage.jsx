@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams, useNavigate, NavLink } from 'react-router-dom'
+import "./SinglePage.css"
 
 
 const SinglePage = ({ ...rest }) => {
@@ -12,7 +13,7 @@ const SinglePage = ({ ...rest }) => {
     return (
         <>
         <main id="single">
-            <h2>{data.name}</h2>
+            <h2 className="single_name">{data.name}</h2>
         
             <img src={`https://source.unsplash.com/400x400/?${data.name}`}/>
 

@@ -10,6 +10,7 @@ import CategoryPage from './routes/CategoryPage';
 import SinglePage from './routes/SinglePage';
 import './App.css';
 import './components/Card.css';
+import './components/Footer.css';
 
 
 

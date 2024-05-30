@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.single_name{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
