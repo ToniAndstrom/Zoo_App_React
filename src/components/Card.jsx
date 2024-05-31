@@ -10,7 +10,7 @@ const Card = ({name,likes, removeCard, addLikes, removeLikes}) => {
         </button><br />
         <h2 className="animal_name">{name}</h2>
 
-        <img src={`https://source.unsplash.com/400x400/?${name}`} />
+        <img src={`https://source.unsplash.com/250x250/?${name}`} />
 
         <div className="likes">
         <button onClick={addLikes} id="like">
@@ -19,7 +19,7 @@ const Card = ({name,likes, removeCard, addLikes, removeLikes}) => {
         </button>
         
         <span  className="material-symbols-outlined" id="heart">
-        favorite
+     {likes>=5 ? "heart_check": likes<=-5 ? "heart_broken" : "favorite"}
         </span>
         <p className="like_number">{likes}</p>
         

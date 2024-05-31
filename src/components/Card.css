@@ -8,7 +8,7 @@
     border: solid black 5px;
     text-align: center;
     text-transform: capitalize;
-    max-width: 30rem;  
+    max-width: 20rem;  
 }
 .likes{
     display: flex;

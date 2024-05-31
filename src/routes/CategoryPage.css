@@ -1,6 +1,7 @@
 .container{
     display: grid;
-    grid-template-columns: repeat (4,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    
 }
 .search{
     display: flex;
@@ -10,7 +11,7 @@
 }
 .search input{
     height: 2rem;
-    width: 10rem;
+    width: 15rem;
     border-radius: 5px;
     margin-bottom: 2rem;
     text-align: center;
@@ -18,4 +19,5 @@
 .category_name{
     font-size: 5rem;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
