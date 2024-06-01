@@ -24,13 +24,14 @@ const CategoryPage = ({removeCard, removeLikes, addLikes, ...rest}) => {
     <>
     <div className="search">
     <h1 className='category_name'>{category}</h1>
-
-      <label htmlFor="search">Looking for someone special?</label><br />
+    
+    <label htmlFor="search">Looking for someone special?</label><br />
     <input type="text" 
      onChange={searchHandler}
       placeholder="Search"
       value={search} id="search"/>
       </div>
+     
 
       <div className="container">
     {categoryItems.

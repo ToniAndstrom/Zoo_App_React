@@ -15,7 +15,7 @@ const SinglePage = ({ ...rest }) => {
         <main id="single">
             <h2 className="single_name">{data.name}</h2>
         
-            <img src={`https://source.unsplash.com/400x400/?${data.name}`}/>
+            <img className="single_image" src={`https://source.unsplash.com/400x400/?${data.name}`}/>
 
           <button> <NavLink to= {`https://en.wikipedia.org/wiki/${data.name}`}> Find me on Wikipedia</NavLink></button>
 

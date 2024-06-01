@@ -10,7 +10,7 @@ const Card = ({name,likes, removeCard, addLikes, removeLikes}) => {
         </button><br />
         <h2 className="animal_name">{name}</h2>
 
-        <img src={`https://source.unsplash.com/250x250/?${name}`} />
+        <img className="card_image" src={`https://source.unsplash.com/250x250/?${name}`} />
 
         <div className="likes">
         <button onClick={addLikes} id="like">

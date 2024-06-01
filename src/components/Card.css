@@ -1,15 +1,19 @@
 
 .Card{
-    background: lightgray;
+    background: mediumaquamarine;
     padding: 20px;
     margin: 1rem;
     color:black;
     border-radius: 10px;
-    border: solid black 5px;
+    border: solid aquamarine 10px;
     text-align: center;
     text-transform: capitalize;
     max-width: 20rem;  
 }
+.card_image{
+    border-radius: 10px;
+}
+
 .likes{
     display: flex;
     flex-direction: row;
@@ -33,9 +37,7 @@
 .like_number{
     margin-top:2rem;
 }
-.animal_name{
-    text-transform: uppercase;
-}
+
 #like, #dislike{
     height: 2rem;
     width: 7rem;

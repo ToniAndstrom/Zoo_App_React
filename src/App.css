@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
- 
+  overscroll-behavior: none;
 }
 header{
   color:white;
@@ -16,12 +16,14 @@ main{
 }
 button{
   margin-top:2rem;
+  
   width: 10rem;
   height: 2rem;
   color:black;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 
 }
 
@@ -33,6 +35,7 @@ button{
 }
 #single a{
   color:black;
+  text-decoration: none;
 }
 
 

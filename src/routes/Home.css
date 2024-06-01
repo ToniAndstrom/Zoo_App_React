@@ -28,7 +28,7 @@
    
 }
 .item2 {
-    background-image: url("bird.jpg");
+    background-image: url("parrot.jpg");
     background-size: cover;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1 ;
@@ -66,4 +66,7 @@
 }
 .landing_page p{
     margin-top:10rem;
+}
+.landing_page p:hover{
+color:aquamarine;
 }

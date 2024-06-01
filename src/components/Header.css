@@ -27,6 +27,11 @@ header a{
     text-decoration: none;
     margin: 2rem;
 }
+header a:hover{
+    color:aquamarine;
+    border-bottom: 3px solid aquamarine
+}
 .logo{
     margin-left: 1rem;
 }
+

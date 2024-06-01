@@ -5,6 +5,10 @@
 }
 .single_name{
     margin-bottom: 2rem;
-    text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 5rem;
+    text-transform: capitalize;
+    color:aquamarine
+}
+.single_image{
+    border-radius: 10px;
 }
