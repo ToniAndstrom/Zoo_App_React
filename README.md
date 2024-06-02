@@ -2,6 +2,7 @@ This Zoo-app was made as a task for my schools (Helsinki Business College) React
 The task was started during class taught by Margit Tennosaar and our task was to finish it and make "ours".
 
 Technologies used: React.
+
 Images on the cards are from https://unsplash.com/.
 
 Screenshots:
