@@ -1,6 +1,8 @@
-This Zoo-app was made as a task for my schools(Helsinki Business College) React class using the basics of React.
+This Zoo-app was made as a task for my schools (Helsinki Business College) React class using the basics of React.
+The task was started during class taught by Margit Tennosaar and our task was to finish it and make "ours".
 
 Technologies used: React.
+Images on the cards are from https://unsplash.com/.
 
 Screenshots:
 
@@ -12,3 +14,5 @@ Screenshots:
 The livepage:
 
 https://zoo-app-react-toni-andstrom.netlify.app/
+
+Unfortunately the livepage doesn't show my images that don't originate from unsplash and I was unable to find a solution for this before the given deadline.
