@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: url("jungle.jpg");
+    background-image: url("public/jungle.jpg");
     background-size: cover;
    width: 90rem;
    height: 12rem;
