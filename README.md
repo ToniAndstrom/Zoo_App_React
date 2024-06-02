@@ -1,6 +1,6 @@
-#This Zoo-app was made as a task for my schools(Helsinki Business College) React class using the basics of React.
+This Zoo-app was made as a task for my schools(Helsinki Business College) React class using the basics of React.
 
-#Technologies used: React.
+Technologies used: React.
 
 Screenshots:
 
